@@ -6,8 +6,14 @@ Una vez descargados los dos archivo de java carpeta de `user` que se encuentra e
 
 **Para ejecutar**
 Abrimos la terminal(cmd) 
-Compilamos con: `javac -cp jSerialComm-1.3.11.jar LeerSerial.java`
-Ejecutar: `java --enable-native-access=ALL-UNNAMED -cp ".;jSerialComm-1.3.11.jar"
-LeerSerial`
+Compilamos con: 
+```bash
+javac -cp jSerialComm-1.3.11.jar LeerSerial.java
+```
+Ejecutamos:
+```bash
+java --enable-native-access=ALL-UNNAMED -cp ".;jSerialComm-1.3.11.jar"
+LeerSerial
+```
 
 
